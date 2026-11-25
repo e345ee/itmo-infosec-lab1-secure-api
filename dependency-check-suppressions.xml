@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd">
+  <suppress>
+    <notes>CVE-2025-45770 applies to jwt 5.4.3, not PyJWT 2.15.1. NVD: https://nvd.nist.gov/vuln/detail/CVE-2025-45770</notes>
+    <packageUrl>pkg:pypi/pyjwt@2.15.1</packageUrl>
+    <vulnerabilityName>CVE-2025-45770</vulnerabilityName>
+  </suppress>
+</suppressions>

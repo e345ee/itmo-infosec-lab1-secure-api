@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.playwright-cli/
+.bandit/
+instance/
+reports/
+*.sqlite3
+*.db
+.env
+.DS_Store
